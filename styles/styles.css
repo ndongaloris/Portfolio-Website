@@ -1,0 +1,192 @@
+body{
+    background: url("../../images/R.jpeg") ;
+    background-size: contain;
+    color: white;
+}
+header{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+    list-style:  none;
+}
+
+nav ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.164);
+    opacity: 0.9;
+    line-height: 40px;
+    text-align:  center;
+    font-size: 25px;
+    margin:auto;
+    border-bottom: 1px solid white ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav ul li a:hover{
+    color: lightsalmon;
+    background-color: rgba(128, 128, 128, 0.425);
+}
+nav ul li ul li{
+    display: none;
+}
+nav ul li:hover ul li{
+    display: block;
+}
+
+main{
+    clear: both;
+    text-align: center;
+    font-size: 30px; 
+}
+
+/* top page */
+#greetings{
+    padding: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+}
+#greetings p{
+    width:34%
+}
+img{
+    mix-blend-mode:exclusion;
+    float: left;
+}
+#greetings button{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border-radius: 1rem;
+    
+}
+/* About Me */
+#myAbout{
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    padding: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#myAbout p{
+    width: 38%;
+}
+/* SKills */
+
+#skills{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin: auto;
+    justify-content: center;
+    padding: 200px;
+}
+#skills div{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#skills table{
+    position: relative;
+    width: 350px;
+    text-align: center;
+}
+
+#skills table thead{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.986);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#skills table:hover thead{
+    position: relative;
+}
+
+#skills table td{
+    background-color: rgba(128, 128, 128, 0.329);
+
+}
+#pro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    padding: 150px;
+    /* background-color: rgba(0, 0, 0, 0.39); */
+}
+#pro figure{
+    width: 200px;
+}
+#pro figure img{
+    width: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 250px 100px 0 100px;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+footer a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Resume */
+#resume main
+{
+    background: none;
+    color: black;
+    background-color:white;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    
+}
+#resume header nav{
+    text-decoration: none;
+    font-size: larger;
+}
+#resume header{
+    width: 100%;
+    padding:50px;
+    background-color: rgba(0, 0, 0, 0.457);
+    text-align: center;
+}
+#resume header h1{
+    font-size: 100px;
+}
+#resume h2{
+    border-bottom: 4px solid black;
+    text-align: left;
+}
+#resume h3,h4,li{
+    text-align: left;
+}
+#resume tr{
+   width:fit-content;
+   margin: auto;
+}
