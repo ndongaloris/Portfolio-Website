@@ -1,7 +1,10 @@
+*{
+    background-color: rgba(211, 211, 211, 0.768);
+}
 body{
-    background: url("../../images/R.jpeg") ;
+    /* background: url("../../images/R.jpeg") ; */
     background-size: contain;
-    color: white;
+    color: black;
 }
 header{
     position: relative;
@@ -53,16 +56,17 @@ main{
 
 /* top page */
 #greetings{
-    padding: 450px;
+    padding: 250px;
     display: flex;
     justify-content: center;
     gap: 350px;
+    mix-blend-mode:color-burn;
 }
 #greetings p{
     width:34%
 }
 img{
-    mix-blend-mode:exclusion;
+    
     float: left;
 }
 #greetings button{
@@ -74,7 +78,7 @@ img{
 }
 /* About Me */
 #myAbout{
-    background-color: rgba(0, 0, 0, 0.39);
+    /* background-color: rgba(0, 0, 0, 0.39); */
     display: flex;
     padding: 200px;
     justify-content: center;
@@ -87,17 +91,20 @@ img{
 
 #skills{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.39);
+    /* background-color: rgba(0, 0, 0, 0.39); */
     margin: auto;
     justify-content: center;
-    padding: 200px;
+    padding: 100px;
+    mix-blend-mode:color-burn;
+    
 }
 #skills div{
     display: flex;
     font-size: 30px;
-    color: white;
+    /* color: white; */
     gap: 50px;
     flex-wrap: wrap;
+    
 }
 
 #skills table{
@@ -111,7 +118,7 @@ img{
     position: absolute;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.986);
+    background-color: rgb(73, 2, 2);
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -152,41 +159,4 @@ footer a{
     text-decoration: none;
     color: white;
     
-}
-
-/* Resume */
-#resume main
-{
-    background: none;
-    color: black;
-    background-color:white;
-    width: 70%;
-    margin: auto;
-    text-align: left;
-    padding: 20px;
-    
-}
-#resume header nav{
-    text-decoration: none;
-    font-size: larger;
-}
-#resume header{
-    width: 100%;
-    padding:50px;
-    background-color: rgba(0, 0, 0, 0.457);
-    text-align: center;
-}
-#resume header h1{
-    font-size: 100px;
-}
-#resume h2{
-    border-bottom: 4px solid black;
-    text-align: left;
-}
-#resume h3,h4,li{
-    text-align: left;
-}
-#resume tr{
-   width:fit-content;
-   margin: auto;
 }
