@@ -1,162 +1,151 @@
-*{
-    background-color: rgba(211, 211, 211, 0.768);
-}
-body{
-    /* background: url("../../images/R.jpeg") ; */
-    background-size: contain;
-    color: black;
-}
-header{
-    position: relative;
-    width: fit-content;
-    margin: auto;
-}
-
-nav ul {
-    margin: auto;
-    padding: 0;
-    list-style:  none;
-}
-
-nav ul li {
-    float: left;
-    width: 200px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.164);
-    opacity: 0.9;
-    line-height: 40px;
-    text-align:  center;
-    font-size: 25px;
-    margin:auto;
-    border-bottom: 1px solid white ;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-
-nav ul li a:hover{
-    color: lightsalmon;
-    background-color: rgba(128, 128, 128, 0.425);
-}
-nav ul li ul li{
-    display: none;
-}
-nav ul li:hover ul li{
-    display: block;
-}
-
-main{
-    clear: both;
+h3{
     text-align: center;
-    font-size: 30px; 
+    font-size:0.8rem;
+}
+#bar img{
+    max-width: 6rem;
 }
 
-/* top page */
-#greetings{
-    padding: 250px;
-    display: flex;
-    justify-content: center;
-    gap: 350px;
-    mix-blend-mode:color-burn;
-}
-#greetings p{
-    width:34%
-}
-img{
-    
-    float: left;
-}
-#greetings button{
-    padding: 10px;
+/* Sidebar */
+#bar{
     color: white;
-    background-color: transparent;
-    border-radius: 1rem;
-    
+    font-size:0.8rem;
+    text-align: center;
 }
-/* About Me */
-#myAbout{
-    /* background-color: rgba(0, 0, 0, 0.39); */
-    display: flex;
-    padding: 200px;
-    justify-content: center;
-    flex-wrap: wrap;
+#bar ul{
+    width:fit-content;
+    margin:auto;
 }
-#myAbout p{
-    width: 38%;
+#bar a{
+    color:white;
+    font-size: 1.2rem;
+    text-decoration:none;
+    font-weight: bold;
+    text-align: center;
 }
+
+
+/* Greetings */
+#greetings{
+    padding-top:4rem;
+    padding-bottom:4rem;
+}
+
+#greetings .col img{
+    width:100%;
+    height: auto;
+}
+#greetings .col section{
+    padding:25% ;
+}
+
+/* About */
+#about{
+    padding-top:4rem;
+    padding-bottom:15rem;
+}
+#about img{
+    width:25%;
+}
+
+
 /* SKills */
 
-#skills{
+#list #skills{
     display: flex;
-    /* background-color: rgba(0, 0, 0, 0.39); */
     margin: auto;
     justify-content: center;
-    padding: 100px;
-    mix-blend-mode:color-burn;
-    
 }
-#skills div{
+#list #skills{
     display: flex;
-    font-size: 30px;
-    /* color: white; */
-    gap: 50px;
+    color: white;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
 }
 
-#skills table{
+#list table{
     position: relative;
-    width: 350px;
-    text-align: center;
+    diplay: flex;
+    width: 250px;
+
 }
 
-#skills table thead{
+#list table thead{
     display: flex;
     position: absolute;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgb(73, 2, 2);
+    background-color: rgba(var(--bs-danger-rgb))!important;
     width: 100%;
     height: 100%;
     z-index: 1;
 }
 
-#skills table:hover thead{
+#list table:hover thead{
     position: relative;
 }
 
-#skills table td{
+#list table td{
     background-color: rgba(128, 128, 128, 0.329);
-
 }
-#pro{
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
+#skills td img{
+    width: 1rem;
+}
+
+.detail{
+    margin:3rem;
+    background-color:rgba(128, 128, 128, 0.329);
+    margin-bottom: 30rem;
+}
+.detail td img{
+    width: 4rem;
+}
+
+/* Projects */
+#project{
+    margin-bottom: 15rem;
+}
+#project .card{
+     color: rgba(var(--bs-light-rgb))!important;
+     background-color: rgba(var(--bs-danger-rgb))!important;
+}
+
+/* Contact */
+#contact{
+    text-align: center;
+    /* width: 61rem; */
     margin: auto;
-    justify-content: center;
-    padding: 150px;
-    /* background-color: rgba(0, 0, 0, 0.39); */
+    padding: 2.5rem;
 }
-#pro figure{
-    width: 200px;
+.card{
+    color:white;
+    gap: 5rem;
 }
-#pro figure img{
-    width: 200px;
+.card-body div{
+    margin-top:3rem;
+}
+.card-body div input{
+    color:rgba(var(--bs-light-rgb))!important;
+    border: none;
+    color:white;
+    border-radius: 0;
+    border-bottom: 1px solid;
+    outline:none;
 }
 
+/* footer */
 footer{
     display: flex;
     justify-content:space-between;
-    padding: 250px 100px 0 100px;
     background-color: rgba(0, 0, 0, 0.39);
+    color: rgba(var(--bs-light-rgb))!important;
 }
 footer a{
-    font-size: 20px;
     text-decoration: none;
-    color: white;
-    
+    color: rgba(var(--bs-light-rgb))!important;
+}
+
+#test{
+    background-color: rgba(var(--bs-danger-rgb))!important;
 }
