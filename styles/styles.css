@@ -1,3 +1,34 @@
+:root {
+    --heading-font: 'Aboreto', sans-serif;
+    --paragraph-font: 'Quicksand', sans-serif;
+    --subtitle-font: 'Poiret One', sans-serif;
+    --font-size: 1.4rem;
+    --primary-color: #d2e2d1;
+    --secondary-color: #9BB899;
+    --tertiary-color: #576656;
+    --background-color: #dfdfde;
+}
+
+#body{
+    font-size: var(--font-size);
+    font-family: var(--paragraph-font); 
+    color: var(--tertiary-color);  
+}
+button{
+    background-color: var(--secondary-color);
+}
+h1,h2,h3{
+    font-family: var(--subtitle-font);
+}
+h4,h5,h6{
+    font-family: var(--heading-font);
+}
+
+#simple-list-item-1{
+    background-color: var(--primary-color);
+    text-align: center;
+
+}
 h3{
     text-align: center;
     font-size:0.8rem;
@@ -11,6 +42,7 @@ h3{
     color: white;
     font-size:0.8rem;
     text-align: center;
+    background-color:  black;
 }
 #bar ul{
     width:fit-content;
@@ -18,7 +50,6 @@ h3{
 }
 #bar a{
     color:white;
-    font-size: 1.2rem;
     text-decoration:none;
     font-weight: bold;
     text-align: center;
@@ -26,6 +57,9 @@ h3{
 
 
 /* Greetings */
+#welcome{
+    background-color: var(--background-color);
+}
 #greetings{
     padding-top:4rem;
     padding-bottom:4rem;
@@ -36,11 +70,12 @@ h3{
     height: auto;
 }
 #greetings .col section{
-    padding:25% ;
+    padding:18% ;
 }
 
 /* About */
 #about{
+    background-color: var(--primary-color);
     padding-top:4rem;
     padding-bottom:15rem;
 }
@@ -50,102 +85,80 @@ h3{
 
 
 /* SKills */
-
-#list #skills{
+#list-skills{
+    background-color: var(--background-color);
+    /* margin:3rem; */
+    padding-bottom: 15rem;
+}
+#list-skills #skills{
     display: flex;
     margin: auto;
     justify-content: center;
 }
-#list #skills{
+#list-skills #skills{
     display: flex;
     color: white;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#list table{
+#skills table{
     position: relative;
-    diplay: flex;
     width: 250px;
 
 }
 
-#list table thead{
+#skills table thead{
     display: flex;
     position: absolute;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgba(var(--bs-danger-rgb))!important;
+    background-color: var(--secondary-color);
     width: 100%;
     height: 100%;
     z-index: 1;
 }
 
-#list table:hover thead{
+#skills table:hover thead{
     position: relative;
 }
 
-#list table td{
+#skills table td{
     background-color: rgba(128, 128, 128, 0.329);
 }
 #skills td img{
     width: 1rem;
 }
-
-.detail{
-    margin:3rem;
-    background-color:rgba(128, 128, 128, 0.329);
-    margin-bottom: 30rem;
-}
-.detail td img{
-    width: 4rem;
+#list-skills i{
+    font-size: 50px;
 }
 
 /* Projects */
 #project{
-    margin-bottom: 15rem;
+    padding-bottom: 15rem;
+    background-color: var(--primary-color);
 }
 #project .card{
-     color: rgba(var(--bs-light-rgb))!important;
-     background-color: rgba(var(--bs-danger-rgb))!important;
+    background-color: var(--primary-color);
 }
+
 
 /* Contact */
 #contact{
-    text-align: center;
-    /* width: 61rem; */
     margin: auto;
     padding: 2.5rem;
-}
-.card{
-    color:white;
-    gap: 5rem;
-}
-.card-body div{
-    margin-top:3rem;
-}
-.card-body div input{
-    color:rgba(var(--bs-light-rgb))!important;
-    border: none;
-    color:white;
-    border-radius: 0;
-    border-bottom: 1px solid;
-    outline:none;
+    background-color: var(--background-color);
 }
 
 /* footer */
 footer{
     display: flex;
     justify-content:space-between;
-    background-color: rgba(0, 0, 0, 0.39);
+    background-color: black;
     color: rgba(var(--bs-light-rgb))!important;
 }
 footer a{
     text-decoration: none;
     color: rgba(var(--bs-light-rgb))!important;
-}
-
-#test{
-    background-color: rgba(var(--bs-danger-rgb))!important;
 }
