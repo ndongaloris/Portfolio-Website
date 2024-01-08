@@ -1,24 +1,25 @@
 const fullName = "Loris Jared Ndonga";
-let profileInfo = document.querySelector("#profileInfo");
+const profileInfo = document.querySelectorAll(".profileInfo");
 
-profileName = document.createElement("h5");
-profileName.innerHTML = fullName;
+profileInfo.forEach(element => {  
+    const profileName = document.createElement("h6");
+    profileName.innerHTML = fullName;
 
-profilePicture = document.createElement("img");
-profilePicture.setAttribute("src", "images/profile.JPG");
-profilePicture.setAttribute("class", "rounded-circle img-fluid ms-1 d-none d-sm-inline ");
-profilePicture.setAttribute("alt", "Jared's profile Picture");
+    const profilePicture = document.createElement("img");
+    profilePicture.setAttribute("src", "images/profile.JPG");
+    profilePicture.setAttribute("class", "rounded-circle img-fluid d-sm-inline ");
+    profilePicture.setAttribute("alt", "Jared's profile Picture");
 
-profileTitle = document.createElement("p");
-profileTitle.innerHTML = "BYU-I student | Software Engineer<br>Developer | Full-stack developer";
+    const profileTitle = document.createElement("p");
+    profileTitle.innerHTML = `FULL-STACK SOFTWARE DEVELOPER <br>BYU-I Student <br>CS50 Learner`
+    const separator = document.createElement("hr");
+    separator.setAttribute("width", "100%");
 
-separator = document.createElement("hr");
-separator.setAttribute("width", "150%");
-
-profileInfo.appendChild(profileName);
-profileInfo.appendChild(profilePicture);
-profileInfo.appendChild(profileTitle);
-profileInfo.appendChild(separator);
+    element.appendChild(profileName);
+    element.appendChild(profilePicture);
+    element.appendChild(profileTitle);
+    element.appendChild(separator);
+});
 
 
 // let Message = [
