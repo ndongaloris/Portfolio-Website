@@ -68,13 +68,15 @@ h3{
     background-color:  black;
     overflow: hidden;
 }
+.bar h4{
+ font-weight: bolder;
+ font-size: 15px;
+ margin: 0 0 10%  0;
+}
 .bar h6{
  font-weight: bolder;
  font-size: 15px;
-}
-.bar p{
- font-weight: bold;
- font-size: 15px;
+ margin: 10% 0 0 0;
 }
 .bar a{
     color:white;
@@ -89,7 +91,7 @@ h3{
     margin:auto;
 }
 .bar ul li{
-    margin: 10px 0;
+    margin: 5% 0;
     width: 100%;
 }
 .bar hr{
