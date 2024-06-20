@@ -266,14 +266,10 @@ h3{
 
 /* footer */
 footer{
-    display: flex;
-    justify-content:space-between;
+    padding: 10px;
     background-color: black;
     color: rgba(var(--bs-light-rgb))!important;
-}
-footer a{
-    text-decoration: none;
-    color: rgba(var(--bs-light-rgb))!important;
+    text-align: center;
 }
 
 #contact .row, #about .row, #list-Skill .row, #project .row{
