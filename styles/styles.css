@@ -112,6 +112,16 @@ h3{
     background-color: white;
     color: black;
 }
+.nav{
+    width: 100%;
+    justify-content: space-around;
+}
+.nav-item li{
+    font-size: small;
+}
+.nav-item  a{
+    font-size: medium;
+}
 
 #offcanvasNavbar{
     background-color: rgba(0, 0, 0, 0.808);
