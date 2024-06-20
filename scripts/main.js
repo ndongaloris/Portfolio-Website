@@ -1,6 +1,6 @@
 const fullName = "Loris Jared Ndonga";
 
-document.querySelector("body").innerHTML = `<div class="row flex-wrap">
+const projects = `
         <div class="col-2 d-none d-md-block bar">
             <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center position-fixed">
                 <ul class="nav flex-column" id="Info">
@@ -318,8 +318,12 @@ document.querySelector("body").innerHTML = `<div class="row flex-wrap">
                 </div>
             </div>
         </div>
-    </div>`
+    `
 
+const project = document.createElement("div");
+project.className = "row flex-wrap";
+project.innerHTML = projects; 
+document.querySelector("body").appendChild(project);
 const profileInfo = document.querySelectorAll(".profileInfo");
 
 profileInfo.forEach(element => {  
