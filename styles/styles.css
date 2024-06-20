@@ -112,11 +112,7 @@ h3{
     background-color: white;
     color: black;
 }
-/* .custom-navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-} */
+
 #offcanvasNavbar{
     background-color: rgba(0, 0, 0, 0.808);
 }
@@ -124,6 +120,20 @@ h3{
     background-color: white;
 }
 
+#navbar-example2{
+    position: sticky;
+    background-color: black;
+    color: white;
+    top: 0;
+    z-index: 999;
+}
+#navbar-example2 a{
+    color: white;
+}
+#navbar-example2 ul{
+    background-color: black;
+
+}
 /* Greetings */
 #welcome{
     background-color: var(--background-color);

@@ -18,42 +18,8 @@ profileInfo.forEach(element => {
     element.appendChild(profileTitle);
 });
 
-// const Hamburger = document.querySelector(".navbar-toggler");
-// // const canvas = document.querySelector(".offcanvas-end");
-// const canvas = document.querySelector(".offcanvas");
-// Hamburger.addEventListener("click", () =>{
-//     const canvasFade = document.querySelector(".offcanvas-backdrop");
 
-//     canvas.addEventListener("click", () =>{
-//             canvas.setAttributes("visibility", "hidden")
-//             // canvas.classList.remove('show');
-//             // canvasFade.classList.remove('show');
-//             // canvasFade.classList.remove('.offcanvas-backdrop');
-//         })    
-// })
-function close_offcanvas() {
-    var element1 = document.getElementById("eff_nav_toggler");
-    element1.classList.remove("collapsed");
-    var element2 = document.getElementById("navbarSupportedContent");
-    element2.classList.remove("show");
-    document.getElementById("eff_nav_toggler").setAttribute('aria-expanded', 'false');
-}
 
-// canvas.classList.
-// if (!bodyStyle){
-//     bodyStyle = '';
-// }
-
-// let Message = [
-//     "Greetings And Welcome!!!",
-//     "I am Jared, and currently studying at BYUI",
-//     "I have also taken a few CS50's course",
-//     "I am a software Developer",
-//     "Python Developer",
-//     "C# Developer"
-// ]
-
-// message = documment.querySelector("#simple-list-item-1");
 
 
 
