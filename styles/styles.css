@@ -83,19 +83,34 @@ h3{
     text-decoration:none;
     font-weight: bold;
     font-size: 15px;
+    margin: 3% 0;
+    width: 100%;
     padding: 0;
 }
-.bar ul {
-    height: 100vh;
+#simple-list-example {
+    height: 30vh;
     width: 16.5vw;
     margin:auto;
 }
 .bar ul li{
+    color:white;
+    list-style: none;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 15px;
     margin: 5% 0;
     width: 100%;
 }
 .bar hr{
     margin: 0;
+}
+.bar ul{
+    padding: 0;
+}
+
+.bar .active{
+    background-color: white;
+    color: black;
 }
 /* .custom-navbar {
     position: sticky;

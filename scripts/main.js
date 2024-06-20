@@ -16,7 +16,6 @@ profileInfo.forEach(element => {
     element.appendChild(profileName);
     element.appendChild(profilePicture);
     element.appendChild(profileTitle);
-    element.appendChild(separator);
 });
 
 // const Hamburger = document.querySelector(".navbar-toggler");
