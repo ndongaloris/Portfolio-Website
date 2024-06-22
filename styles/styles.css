@@ -272,6 +272,9 @@ footer{
     background-color: black;
     color: rgba(var(--bs-light-rgb))!important;
 }
+footer a{
+    text-decoration: none;
+}
 
 #contact .row, #about .row, #list-Skill .row, #project .row{
     --bs-gutter-x: 2rem;
