@@ -23,13 +23,14 @@ profileInfo.forEach(element => {
 export default function Home() {
   return (
     <div className="row flex-wrap">
-
-    <div className="col-lg-10 col-md-10 col-sm-12" style="--bs-bg-opacity: .2;" id="body">
+      //style="--bs-bg-opacity: .2;" 
+    <div className="col-lg-10 col-md-10 col-sm-12" id="body">
         
             
             <div className="row" id="mainRow">
+              // tabindex="0" 
                 <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
-                data-bs-smooth-scroll="true" className="scrollspy-example" tabindex="0" id="navManager">
+                data-bs-smooth-scroll="true" className="scrollspy-example" id="navManager">
                    
                    
                 </div>
