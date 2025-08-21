@@ -20,8 +20,8 @@ export default function Welcome() {
                                     ― <strong>Edward Elric</strong></p>
                             </section>
                         </div>
-                        <div className="col">
-                            <img src="images/home.png" className="rounded float-end" alt="My picture" width="500"/>
+                        <div className="col max-sm:none">
+                            <img src="images/home.png" className="rounded float-end max-sm:hidden " alt="My picture" width="500"/>
                         </div>
                     </div>
                 </div>
