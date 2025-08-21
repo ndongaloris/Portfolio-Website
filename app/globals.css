@@ -42,7 +42,8 @@ body {
 #body{
     font-size: var(--font-size);
     font-family: var(--paragraph-font); 
-    color: var(--tertiary-color);  
+    color: var(--tertiary-color); 
+    --bs-bg-opacity: .2; 
 }
 #mainRow{
     width: fit-content;

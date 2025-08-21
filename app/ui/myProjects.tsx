@@ -6,7 +6,7 @@ export default function MyProjects(){
                         <div className="container text-center displayP">
                             <div className="row row-cols-1 row-cols-lg-2">
                                 <div className="col">
-                                    // style="max-width: 540px;"
+                                    {/* // style="max-width: 540px;" */}
                                     <div className="card mb-3" >
                                         <div className="row g-0">
                                             <div className="col-md-4">
@@ -26,7 +26,7 @@ export default function MyProjects(){
                                     </div>
                                 </div>
                                 <div className="col">
-                                    // style="max-width: 540px;"
+                                    {/* // style="max-width: 540px;" */}
                                     <div className="card mb-3" >
                                         <div className="row g-0">
                                             <div className="col-md-4">
@@ -48,7 +48,7 @@ export default function MyProjects(){
                         <div className="container text-center displayP">
                             <div className="row row-cols-1 row-cols-lg-2">
                                 <div className="col">
-                                    // style="max-width: 540px;"
+                                    {/* // style="max-width: 540px;" */}
                                     <div className="card mb-3">
                                         <div className="row g-0">
                                             <div className="col-md-4">
@@ -65,7 +65,7 @@ export default function MyProjects(){
                                     </div>
                                 </div>
                                 <div className="col">
-                                    // style="max-width: 540px;"
+                                    {/* // style="max-width: 540px;" */}
                                     <div className="card mb-3">
                                         <div className="row g-0">
                                             <div className="col-md-4">

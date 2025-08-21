@@ -1,10 +1,6 @@
 export default function Welcome() {
     return (
         <section id="welcome">
-            <div>
-                <h1 id="simple-list-item-1">CURRENTLY WORKING ON THIS PORTFOLIO</h1>
-                <hr/>
-            </div>
             <div className="row" id="greetings">
                 <div className="container text-center">
                     <div className="row">

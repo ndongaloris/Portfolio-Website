@@ -4,7 +4,7 @@ export default function NavBar(){
         <nav  className="navbar bg-body-tertiary d-md-none">
             <ul className="nav nav-pills">
                 <li className="nav-item">
-                    // aria-multiselectable=""
+                    {/* // aria-multiselectable="" */}
                     <a className="nav-link" href="#welcome" ><i className="fa-solid fa-house"></i></a>
                 </li>
                 <li className="nav-item">

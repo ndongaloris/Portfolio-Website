@@ -34,7 +34,7 @@ export default function ContactMe(){
                                 </div>
                                 <div className="col col-12">
                                     <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
-                                    // rows="3"
+                                    {/* // rows="3" */}
                                     <textarea className="form-control" id="exampleFormControlTextarea1"
                                         placeholder="Write your message here" ></textarea>
                                 </div>
