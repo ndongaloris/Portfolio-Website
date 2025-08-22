@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Welcome() {
     return (
         <section id="welcome">
@@ -21,7 +23,7 @@ export default function Welcome() {
                             </section>
                         </div>
                         <div className="col max-sm:hidden">
-                            <img src="images/home.png" className="rounded float-end max-sm:hidden " alt="My picture" width="500"/>
+                            <Image src="images/home.png" className="rounded float-end max-sm:hidden " alt="My picture" width="500"/>
                         </div>
                     </div>
                 </div>
