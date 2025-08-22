@@ -1,7 +1,7 @@
 export default function NavBar(){
     return (
         // id="navbar-example2"
-        <nav  className="navbar bg-body-tertiary d-md-none">
+        <nav  className="navbar bg-body-tertiary d-md-none p-0">
             <ul className="nav nav-pills">
                 <li className="nav-item">
                     {/* // aria-multiselectable="" */}

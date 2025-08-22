@@ -94,7 +94,7 @@ h3{
 }
 .bar h4{
  font-weight: bolder;
- font-size: 15px;
+ font-size: 20px;
  margin: 0 0 10%  0;
 }
 .bar h6{
@@ -139,12 +139,14 @@ h3{
 .nav{
     width: 100%;
     justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.808);
 }
 .nav-item li{
     font-size: small;
 }
 .nav-item  a{
     font-size: medium;
+    color: white;
 }
 
 #offcanvasNavbar{
