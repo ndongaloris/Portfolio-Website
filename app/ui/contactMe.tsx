@@ -1,7 +1,7 @@
 export default function ContactMe(){
     return (
          <section id="contact">
-                        <h3 id="contact-me"><strong>LET'S GET IN TOUCH</strong></h3>
+                        <h3 id="contact-me"><strong>LET&apos;S GET IN TOUCH</strong></h3>
                         <hr/>
                         <form action="/message" method="POST">
                             <div className="row g-3">
