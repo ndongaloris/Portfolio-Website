@@ -6,16 +6,16 @@ export default function AboutMe(){
                         <div className="clearfix" id="aboutMe">
                             <img src="images/me_suit.jpg" className="col-md-6 float-md-end mb-3 ms-md-3"
                                 alt="A picture of Me" id="aboutMePic"/>
-                            <h4>Greetings I'm Jared,</h4>
+                            <h4>Greetings I&apos;m Jared,</h4>
                             <p>
-                                I'm a Software Development student at Brigham Young University (BYU-Idaho), 
-                                diving into the world of coding and algorithms. I've decided to specialize 
+                                I&apos;m a Software Development student at Brigham Young University (BYU-Idaho), 
+                                diving into the world of coding and algorithms. I&apos;ve decided to specialize 
                                 in Full Stack Development, where I can build seamless, end-to-end solutions 
-                                for the web. The journey ahead is exciting, and I'm eager to refine my 
+                                for the web. The journey ahead is exciting, and I&apos;m eager to refine my 
                                 skills and create impactful projects!
                             </p>
                             <p>
-                                Alongside my academic journey, I've earned a professional CS50 with Python certificate.
+                                Alongside my academic journey, I&apos;ve earned a professional CS50 with Python certificate.
                                 This certification reflects my dedication to mastering programming and equips me with a
                                 problem-solving mindset for clean,
                                 efficient code.
@@ -29,7 +29,7 @@ export default function AboutMe(){
                             </p>
                             <p>
                                 Join me on this dynamic journey through software development.
-                                Let's explore solutions, create digital experiences, and build an exciting future
+                                Let&apos;s explore solutions, create digital experiences, and build an exciting future
                                 together!
                             </p>
                         </div>
