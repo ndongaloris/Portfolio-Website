@@ -13,6 +13,7 @@ import AboutMe from "./ui/aboutMe";
 import MyProjects from "./ui/myProjects";
 import MySkills from "./ui/myskills";
 import ContactMe from "./ui/contactMe";
+import { Projects } from './data/project';
 
 export default function Home() {
   return (

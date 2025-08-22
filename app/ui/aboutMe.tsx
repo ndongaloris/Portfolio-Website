@@ -7,8 +7,8 @@ export default function AboutMe() {
             <h3 id="about-me"><strong>ABOUT ME</strong></h3>
             <hr />
             <div className="clearfix" id="aboutMe">
-                <Image src="images/me_suit.jpg" className="col-md-6 float-md-end mb-3 ms-md-3"
-                    alt="A picture of Me" id="aboutMePic" />
+                <Image src="/images/me_suit.jpg" className="col-md-6 float-md-end mb-3 ms-md-3"
+                    alt="A picture of Me" id="aboutMePic"width={400} height={300} />
                 <h4>Greetings I&apos;m Jared,</h4>
                 <p>
                     I&apos;m a Software Development student at Brigham Young University (BYU-Idaho),
