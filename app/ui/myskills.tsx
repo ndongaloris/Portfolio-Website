@@ -26,7 +26,7 @@ export default function MySkills() {
                     <div className="col">
                         <i className="devicon-python-plain devicons"></i>
                         <i className="devicon-flask-plain devicons"></i>
-                        <p>Flask, a lightweight Python web framework's simplicity helps
+                        <p>Flask, a lightweight Python web framework&apos;s simplicity helps
                             create dynamic and scalable web applications. <a
                                 href="#my-project" className="linkstyle">My projects.</a></p>
                     </div>

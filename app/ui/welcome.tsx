@@ -16,7 +16,7 @@ export default function Welcome() {
                             <section>
                                 <h4>My favorite quote:</h4>
                                 <p>“Humankind Cannot Gain Anything Without First Giving Something In Return.
-                                    To obtain, Something Of Equal Value Must Be Lost. That Is Alchemy's
+                                    To obtain, Something Of Equal Value Must Be Lost. That Is Alchemy&apos;s
                                     First
                                     Law Of Equivalent Exchange.”
                                     ― <strong>Edward Elric</strong></p>
