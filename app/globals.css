@@ -139,7 +139,7 @@ h3{
 .nav{
     width: 100%;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.808);
+    background-color: rgb(0, 0, 0);
 }
 .nav-item li{
     font-size: small;
