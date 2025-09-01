@@ -43,6 +43,7 @@
 }
 #mainRow{
     width: fit-content;
+    --bs-gutter-x: initial;
 }
 p a{
     color: var(--secondary-color);
@@ -76,7 +77,7 @@ h3{
     max-width: 6rem;
 }
 .row{
-    --bs-gutter-x: 0;
+    --bs-gutter-x: initial;
 }
 
 /* ------------- Sidebar ------------ */
@@ -109,7 +110,6 @@ h3{
     font-size: 15px;
     margin: 3% 0;
     width: 100%;
-    padding: 0;
 }
 #simple-list-example {
     height: 30vh;

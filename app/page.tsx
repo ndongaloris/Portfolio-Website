@@ -17,7 +17,7 @@ import { Projects } from './data/project';
 
 export default function Home() {
   return (
-    <div className="min-h-screen row flex-wrap w-full m-0">
+    <div className="min-h-screen row overflow-hidden flex-wrap w-full m-0">
       <SideNav />
       <div className="col-lg-10 col-md-10 col-sm-12 col-12 p-0" id="body">
         <NavBar />
