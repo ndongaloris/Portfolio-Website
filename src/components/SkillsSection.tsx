@@ -4,19 +4,19 @@ export function SkillsSection() {
   const skillCategories = [
     {
       category: "Frontend",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Redux", "Vue.js", "HTML5", "CSS3"]
+      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Blazor", "Bootstrap", "HTML5", "CSS3"]
     },
     {
       category: "Backend",
-      skills: ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "Redis", "GraphQL"]
+      skills: ["Node.js", "Express", "Python", "Flask", "PostgreSQL", "MongoDB"]
     },
     {
       category: "DevOps & Tools",
-      skills: ["Docker", "Kubernetes", "AWS", "CI/CD", "Git", "Jest", "Linux", "Nginx"]
+      skills: ["Docker", "CI/CD", "Git", "Linux"]
     },
     {
       category: "Other",
-      skills: ["REST APIs", "Microservices", "Agile", "System Design", "Testing", "WebSockets"]
+      skills: ["REST APIs", "Agile", "System Design", "Testing"]
     }
   ];
 
@@ -60,10 +60,10 @@ export function SkillsSection() {
             <h3 className="text-2xl mb-4">Currently Learning</h3>
             <div className="flex flex-wrap gap-3">
               <Badge variant="outline" className="px-4 py-2 border-[var(--primary-color)] text-[var(--primary-color)]">
-                Rust
+                React Native
               </Badge>
               <Badge variant="outline" className="px-4 py-2 border-[var(--primary-color)] text-[var(--primary-color)]">
-                WebAssembly
+                Blazor
               </Badge>
               <Badge variant="outline" className="px-4 py-2 border-[var(--primary-color)] text-[var(--primary-color)]">
                 Machine Learning
