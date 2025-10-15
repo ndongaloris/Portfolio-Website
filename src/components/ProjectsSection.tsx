@@ -19,7 +19,7 @@ export function ProjectsSection() {
       image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_Ideavault.jpeg?raw=true",
       technologies: ["React", "Firebase", "No-SQL", "TypeScript", "Tailwind", "HTML", "CSS"],
       github: "https://github.com/ndongaloris/IdeaVault",
-      demo: "https://example.com"
+      demo: "https://idea-vault-kappa.vercel.app/"
     }
   ];
 
