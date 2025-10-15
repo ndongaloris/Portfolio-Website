@@ -6,12 +6,12 @@ import { ExternalLink, Github } from "lucide-react";
 export function ProjectsSection() {
   const personalProjects = [
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather application with location-based forecasts, interactive maps, and historical weather data visualization.",
+      title: "Finance",
+      description: "Allows users to calculate loans and savings by generating a schedule.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRhc2hib2FyZCUyMGFuYWx5dGljc3xlbnwxfHx8fDE3NTkzMjk4NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      technologies: ["React", "API Integration", "Chart.js"],
-      github: "https://github.com",
-      demo: "https://example.com"
+      technologies: ["Python", "Flask", "Numpy", "Pandas"],
+      github: "https://github.com/ndongaloris/Finances",
+      demo: "https://finance-y1i9.onrender.com/"
     },
     {
       title: "IdeaVault",

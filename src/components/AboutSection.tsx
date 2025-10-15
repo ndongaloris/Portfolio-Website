@@ -36,15 +36,19 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
-                I'm a passionate software engineer with over 5 years of experience building 
-                web applications. I love turning complex problems into simple, beautiful, 
-                and intuitive solutions.
+                I'm Full-Stack Software Developer with an Associate Degree in 
+                Software Development and currently pursuing a Bachelor's in the same 
+                field at Brigham Young University–Idaho.
               </p>
               
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
-                When I'm not coding, you'll find me contributing to open-source projects, 
-                writing technical articles, or exploring the latest tech trends. I believe 
-                in continuous learning and sharing knowledge with the developer community.
+                I hold a professional CS50 certificate in Python, 
+                which deepened my understanding of algorithms and object-oriented programming. 
+                I’m passionate about creating impactful digital experiences.
+              </p>
+              <p className="text-lg text-[var(--secondary-color)] opacity-90">
+               Outside of code, I recharge through anime, basketball, and 
+               video games—always balancing logic with creativity.
               </p>
               
               <div className="space-y-3 pt-4">
