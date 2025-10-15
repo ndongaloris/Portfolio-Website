@@ -48,7 +48,7 @@ export default function App() {
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <Avatar className="h-16 w-16">
-                  <AvatarImage src="https://api.dicebear.com/7.x/avataaars/svg?seed=JohnDoe" />
+                  <AvatarImage src="https://avatars.githubusercontent.com/u/130836683?s=400&u=f08c03a8d5c620725aa36a62c23aec430707cb3a&v=4" />
                   <AvatarFallback className="bg-[var(--primary-color)] text-[var(--secondary-color)]">NLJ</AvatarFallback>
                 </Avatar>
                 <div>

@@ -16,7 +16,7 @@ export function ProjectsSection() {
     {
       title: "IdeaVault",
       description: "The app allows users to create, view, edit, and delete startup ideas, each tagged with metadata like stage, description, and technology focus. It connects to a Firestore cloud database, enabling persistent storage and real-time updates.",
-      image: "https://images.unsplash.com/photo-1633250391894-397930e3f5f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHBsaWNhdGlvbiUyMGRlc2lnbnxlbnwxfHx8fDE3NTkzMjk4Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/P2.0/public/images/Screenshot_Ideavault.jpeg",
       technologies: ["React", "Firebase", "No-SQL", "TypeScript", "Tailwind", "HTML", "CSS"],
       github: "https://github.com/ndongaloris/IdeaVault",
       demo: "https://example.com"
@@ -35,7 +35,7 @@ export function ProjectsSection() {
     {
       title: "handcrafted haven",
       description: "Provides a platform for artisans and crafters to showcase and sell their unique handcrafted items.",
-      image: "",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/handcraftedhaven.png?raw=true",
       technologies: ["React", "Node.js", "CSS Framework", "Vercel", "Next.js"],
       github: "https://github.com/KukkikD/WDD430-Group6-Project",
       demo: "https://handcraftedhaven-72l3.vercel.app/"
@@ -43,7 +43,7 @@ export function ProjectsSection() {
     {
       title: "BudgetBuddy",
       description: "Track expenses, manage budgets, and achieve your financial goals with BudgetBuddy - the simple and powerful personal finance manager.",
-      image: "https://images.unsplash.com/photo-1748256622734-92241ae7b43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NTkyNDMwNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/P2.0/public/images/Screenshot_budgetbuddy.jpeg",
       technologies: ["Docker", "C#", "MongoDB", "Blazor", "CSS", "HTML", "Azure"],
       github: "https://github.com/ndongaloris/BudgetBuddy",
       demo: "https://budgetbuddy-u82p.onrender.com/"
