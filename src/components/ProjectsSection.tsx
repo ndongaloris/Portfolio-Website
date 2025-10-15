@@ -8,7 +8,7 @@ export function ProjectsSection() {
     {
       title: "Finance",
       description: "Allows users to calculate loans and savings by generating a schedule.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRhc2hib2FyZCUyMGFuYWx5dGljc3xlbnwxfHx8fDE3NTkzMjk4NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_finance.jpeg?raw=true",
       technologies: ["Python", "Flask", "Numpy", "Pandas"],
       github: "https://github.com/ndongaloris/Finances",
       demo: "https://finance-y1i9.onrender.com/"
@@ -16,7 +16,7 @@ export function ProjectsSection() {
     {
       title: "IdeaVault",
       description: "The app allows users to create, view, edit, and delete startup ideas, each tagged with metadata like stage, description, and technology focus. It connects to a Firestore cloud database, enabling persistent storage and real-time updates.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/P2.0/public/images/Screenshot_Ideavault.jpeg",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_Ideavault.jpeg?raw=true",
       technologies: ["React", "Firebase", "No-SQL", "TypeScript", "Tailwind", "HTML", "CSS"],
       github: "https://github.com/ndongaloris/IdeaVault",
       demo: "https://example.com"
@@ -27,7 +27,7 @@ export function ProjectsSection() {
     {
       title: "PathwayWorldwide-API",
       description: "An API for replicating BYU PathwayWorldwide, including resources/collections.",
-      image: "https://images.unsplash.com/photo-1748256622734-92241ae7b43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NTkyNDMwNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_BYUPW-API.com.jpeg?raw=true",
       technologies: ["Jest", "Swagger", "MongoDB", "Node.js", "Rest API", "Passport", "Oauth 2.0"],
       github: "https://github.com/ndongaloris/BYU-PathwayWorldwide-API",
       demo: "https://cse341-team13.onrender.com/"
@@ -35,7 +35,7 @@ export function ProjectsSection() {
     {
       title: "handcrafted haven",
       description: "Provides a platform for artisans and crafters to showcase and sell their unique handcrafted items.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/handcraftedhaven.png?raw=true",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_handcraftedhaven.jpeg?raw=true",
       technologies: ["React", "Node.js", "CSS Framework", "Vercel", "Next.js"],
       github: "https://github.com/KukkikD/WDD430-Group6-Project",
       demo: "https://handcraftedhaven-72l3.vercel.app/"
@@ -43,7 +43,7 @@ export function ProjectsSection() {
     {
       title: "BudgetBuddy",
       description: "Track expenses, manage budgets, and achieve your financial goals with BudgetBuddy - the simple and powerful personal finance manager.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/P2.0/public/images/Screenshot_budgetbuddy.jpeg",
+      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_budgetbuddy.jpeg?raw=true",
       technologies: ["Docker", "C#", "MongoDB", "Blazor", "CSS", "HTML", "Azure"],
       github: "https://github.com/ndongaloris/BudgetBuddy",
       demo: "https://budgetbuddy-u82p.onrender.com/"
