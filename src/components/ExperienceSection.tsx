@@ -6,16 +6,19 @@ export function ExperienceSection() {
       title: "Full Stack Developer",
       company: "GBCS Group SkyIT",
       period: "Oct 2025 - Present",
-      description: "Comming Soon",
+      description: "Developed and maintained full-stack features for fleet management applications, including frontend and backend components",
       achievements: [
-        "Commint Soon!!"
+        "Assisted in troubleshooting, performance tuning, and continuous improvement of software systems",
+        "Participated in application deployment and management on cloud platforms, notably Microsoft Azure",
+        "Implemented responsive and dynamic frontend applications using ReactJS, NextJS, and related technologies",
+        "Contributed to API design and integration, utilizing RESTful and GraphQL services"
       ]
     },
     {
-      title: "Programing Intern",
+      title: "Programming Intern",
       company: "Research and Business Development Center",
       period: " Jan 2024 - May 2024",
-      description: "Started my career building features for the company's main product. Learned best practices and modern development workflows.",
+      description: "Started my career building features for the company's main product. Learned best practices and modern development workflows",
       achievements: [
         "Applied Scrum framework to prioritize backlog items, improving project progress by 30%",
         "Established naming conventions, diminishing documentation errors by 10%",
@@ -27,7 +30,7 @@ export function ExperienceSection() {
       title: "Full-time Representative",
       company: "The Church of Jesus Christ of Latter-Day Saints",
       period: " April 2020 - May 2022",
-      description: "Started my career building features for the company's main product. Learned best practices and modern development workflows.",
+      description: "Led community outreach and administrative efforts across diverse cultural settings, fostering engagement and operational efficiency",
       achievements: [
         " Created financial spreadsheets, reducing working-fund processing time by 70%",
         "Led weekly goal-setting meetings, boosting member retention by 5%",
