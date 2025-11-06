@@ -36,9 +36,8 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
-                I'm Full-Stack Software Developer with an Associate Degree in 
-                Software Development and currently pursuing a Bachelor's in the same 
-                field at Brigham Young University–Idaho.
+                I'm Full-Stack Software Developer currently pursuing a Bachelor of Applied Science of Software Development at 
+                Brigham Young University–Idaho.
               </p>
               
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
@@ -48,20 +47,14 @@ export function AboutSection() {
               </p>
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
                Outside of code, I recharge through anime, basketball, and 
-               video games—always balancing logic with creativity.
+               video games, always balancing logic with creativity.
               </p>
               
-              <div className="space-y-3 pt-4">
+              <div className="space-y-3 pt-2">
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 rounded-full bg-[var(--tertiary-color)]"></span>
                   <span className="text-[var(--secondary-color)]">
-                    <strong>Location:</strong> Grodno, Belarus
-                  </span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="w-2 h-2 rounded-full bg-[var(--tertiary-color)]"></span>
-                  <span className="text-[var(--secondary-color)]">
-                    <strong>Education:</strong> Bachelor of Applied Science of Software Development
+                    <strong>Education:</strong> Associate of Applied Science of S. Development
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
