@@ -3,6 +3,8 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Label } from "./ui/label";
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 
 export function ContactSection() {
   const contactInfo = [
@@ -15,16 +17,36 @@ export function ContactSection() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+375 25 697 8184",
-      href: "tel:+375 25 697 8184"
+      value: "+242 05 533 33 36",
+      href: "tel:+242 05 533 33 36"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Belarus",
+      value: "Republic Of Congo",
       href: null
     }
   ];
+  const formRef = useRef<HTMLFormElement>(null);
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_hgl1v1s',     // Service ID from EmailJS dashboard
+      'template_0sdvdsr',      // Template ID
+      e.currentTarget,       // The form element
+      'lCJuic6gpBo4AMmv_'           // Public Key
+    ).then(
+      (result) => {
+        console.log('Message sent:', result.text);
+        alert('Message sent successfully!');
+        formRef.current?.reset();      },
+      (error) => {
+        console.error('Error:', error.text);
+        alert('Failed to send message. Please try again.');
+      }
+    );
+  };
 
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center px-8 py-20">
@@ -45,11 +67,12 @@ export function ContactSection() {
             <div className="bg-white rounded-lg p-8 shadow-md border border-[var(--border)]">
               <h3 className="text-2xl text-[var(--secondary-color)] mb-6">Send Message</h3>
               
-              <form className="space-y-6">
+              <form className="space-y-6" ref={formRef} onSubmit={sendEmail}>
                 <div className="space-y-2">
                   <Label htmlFor="name" className="text-[var(--secondary-color)]">Name</Label>
                   <Input 
-                    id="name" 
+                    id="name"
+                    name="user_name" 
                     placeholder="Your name"
                     className="border-[var(--border)] focus:border-[var(--secondary-color)]"
                   />
@@ -59,6 +82,7 @@ export function ContactSection() {
                   <Label htmlFor="email" className="text-[var(--secondary-color)]">Email</Label>
                   <Input 
                     id="email" 
+                    name="user_email"
                     type="email" 
                     placeholder="your.email@example.com"
                     className="border-[var(--border)] focus:border-[var(--secondary-color)]"
@@ -69,6 +93,7 @@ export function ContactSection() {
                   <Label htmlFor="subject" className="text-[var(--secondary-color)]">Subject</Label>
                   <Input 
                     id="subject" 
+                    name="subject"
                     placeholder="Project inquiry"
                     className="border-[var(--border)] focus:border-[var(--secondary-color)]"
                   />
@@ -77,7 +102,8 @@ export function ContactSection() {
                 <div className="space-y-2">
                   <Label htmlFor="message" className="text-[var(--secondary-color)]">Message</Label>
                   <Textarea 
-                    id="message" 
+                    id="message"
+                    name="message" 
                     placeholder="Tell me about your project..."
                     rows={5}
                     className="border-[var(--border)] focus:border-[var(--secondary-color)]"
@@ -132,7 +158,7 @@ export function ContactSection() {
                 </p>
                 <Button 
                   variant="outline"
-                  className="border-[var(--primary-color)] text-[var(--primary-color)] hover:bg-[var(--tertiary-color)] hover:border-[var(--tertiary-color)]"
+                  className="border-[var(--primary-color)] text-[var(--tertiary-color)] hover:bg-[var(--tertiary-color)] hover:border-[var(--tertiary-color)]"
                 >
                   Download CV
                 </Button>
