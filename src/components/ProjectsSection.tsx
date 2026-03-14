@@ -8,7 +8,7 @@ export function ProjectsSection() {
     {
       title: "Finance",
       description: "Allows users to calculate loans and savings by generating a schedule.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_finance.jpeg?raw=true",
+      image: "/images/Screenshot_finance.jpeg",
       technologies: ["Python", "Flask", "Numpy", "Pandas"],
       github: "https://github.com/ndongaloris/Finances",
       demo: "https://finance-y1i9.onrender.com/"
@@ -16,7 +16,7 @@ export function ProjectsSection() {
     {
       title: "IdeaVault",
       description: "The app allows users to create, view, edit, and delete startup ideas, each tagged with metadata like stage, description, and technology focus. It connects to a Firestore cloud database, enabling persistent storage and real-time updates.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_Ideavault.jpeg?raw=true",
+      image: "/images/Screenshot_Ideavault.jpeg",
       technologies: ["React", "Firebase", "No-SQL", "TypeScript", "Tailwind", "HTML", "CSS"],
       github: "https://github.com/ndongaloris/IdeaVault",
       demo: "https://idea-vault-kappa.vercel.app/"
@@ -27,7 +27,7 @@ export function ProjectsSection() {
     {
       title: "PathwayWorldwide-API",
       description: "An API for replicating BYU PathwayWorldwide, including resources/collections.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_BYUPW-API.com.jpeg?raw=true",
+      image: "/images/Screenshot_BYUPW-API.com.jpeg",
       technologies: ["Jest", "Swagger", "MongoDB", "Node.js", "Rest API", "Passport", "Oauth 2.0"],
       github: "https://github.com/ndongaloris/BYU-PathwayWorldwide-API",
       demo: "https://cse341-team13.onrender.com/"
@@ -35,7 +35,7 @@ export function ProjectsSection() {
     {
       title: "handcrafted haven",
       description: "Provides a platform for artisans and crafters to showcase and sell their unique handcrafted items.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_handcraftedhaven.jpeg?raw=true",
+      image: "/images/Screenshot_handcraftedhaven.jpeg",
       technologies: ["React", "Node.js", "CSS Framework", "Vercel", "Next.js"],
       github: "https://github.com/KukkikD/WDD430-Group6-Project",
       demo: "https://handcraftedhaven-72l3.vercel.app/"
@@ -43,7 +43,7 @@ export function ProjectsSection() {
     {
       title: "BudgetBuddy",
       description: "Track expenses, manage budgets, and achieve your financial goals with BudgetBuddy - the simple and powerful personal finance manager.",
-      image: "https://github.com/ndongaloris/Portfolio-Website/blob/main/public/images/Screenshot_budgetbuddy.jpeg?raw=true",
+      image: "/images/Screenshot_budgetbuddy.jpeg",
       technologies: ["Docker", "C#", "MongoDB", "Blazor", "CSS", "HTML", "Azure"],
       github: "https://github.com/ndongaloris/BudgetBuddy",
       demo: "https://budgetbuddy-u82p.onrender.com/"
@@ -52,12 +52,12 @@ export function ProjectsSection() {
 
   const seniorProject = [
     {
-      title: "Smart Campus Management System",
-      description: "Comprehensive university management platform integrating student services, course management, facility booking, and campus navigation with IoT sensors for real-time occupancy tracking.",
-      image: "https://images.unsplash.com/photo-1712903911017-7c10a3c4b3e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwcHJvamVjdCUyMHByZXNlbnRhdGlvbnxlbnwxfHx8fDE3NTkzMjk4Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      technologies: ["React", "Python", "Django", "PostgreSQL", "IoT", "Docker"],
-      github: "https://github.com",
-      demo: "https://example.com"
+      title: "GalaxyChatHub",
+      description: "GalaxyChatHub aims to provide a community-driven chat platform where conversations flow seamlessly and users feel connected. Inspired by the idea of leaving your own trail, it encourages exploration, creativity, and meaningful interaction.",
+      image: "/images/Screenshot_galaxy-chat-hub.jpeg",
+      technologies: ["React", "Prisma", "Typescript", "PostgreSQL"],
+      github: "https://github.com/Marcos-Antunes-Junior/GalaxyChatHub",
+      demo: "https://galaxy-chat-hub.vercel.app/"
     }
   ];
 
@@ -71,6 +71,7 @@ export function ProjectsSection() {
           src={project.image}
           alt={project.title}
           className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          loading="lazy"
         />
       </div>
       
