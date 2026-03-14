@@ -12,7 +12,7 @@ export function SkillsSection() {
     },
     {
       category: "DevOps & Tools",
-      skills: ["Docker", "CI/CD", "Git", "Linux"]
+      skills: ["Docker", "CI/CD", "Git", "Linux", "Terraform", "AWS", "Azure"]
     },
     {
       category: "Other",
