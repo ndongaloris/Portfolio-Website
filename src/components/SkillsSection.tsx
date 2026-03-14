@@ -16,7 +16,7 @@ export function SkillsSection() {
     },
     {
       category: "Other",
-      skills: ["REST APIs", "Agile", "System Design", "Testing"]
+      skills: ["REST APIs", "Jira", "Confluence", "Scrum", "Agile", "System Design"]
     }
   ];
 
