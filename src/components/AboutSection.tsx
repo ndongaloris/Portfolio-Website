@@ -36,25 +36,21 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
-                I'm Full-Stack Software Developer currently pursuing a Bachelor of Applied Science of Software Development at 
-                Brigham Young University–Idaho.
+              I am Jared, a Full-Stack Developer & Team Lead with a track record of managing high-performing engineering teams and building scalable cloud architectures. With a 4.0 GPA in Software Development and experience leading 20+ developers, I thrive at the intersection of technical strategy and hands-on execution.
               </p>
               
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
-                I hold a professional CS50 certificate in Python, 
-                which deepened my understanding of algorithms and object-oriented programming. 
-                I’m passionate about creating impactful digital experiences.
+              Global Adaptability: A diverse background spanning the Republic Of Congo, US, South Africa, Côte d'Ivoire, Canada and Belarus, including a 2-year volunteer mission that sharpened my resilience and communication skills.
               </p>
               <p className="text-lg text-[var(--secondary-color)] opacity-90">
-               Outside of code, I recharge through anime, basketball, and 
-               video games, always balancing logic with creativity.
+              Fluent in French & English | Currently expanding my Russian proficiency.
               </p>
               
               <div className="space-y-3 pt-2">
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 rounded-full bg-[var(--tertiary-color)]"></span>
                   <span className="text-[var(--secondary-color)]">
-                    <strong>Education:</strong> Associate of Applied Science of S. Development
+                    <strong>Education:</strong> B.A.S. in Software Development
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
